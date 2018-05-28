@@ -49,13 +49,13 @@ function loadMap() {
         }
         
         //Set the icon
-        if(airport.totalper >= 80) {
+        if(airport.totalper >= 90) {
             airport.icon = 'green';            
         } 
-        else if((70 <= airport.totalper) && (airport.totalper < 80)) {
+        else if((80 <= airport.totalper) && (airport.totalper < 70)) {
             airport.icon = 'yellow';            
         } 
-        else if((60 <= airport.totalper) && (airport.totalper < 70)) {
+        else if((70 <= airport.totalper) && (airport.totalper < 80)) {
             airport.icon = 'orange';
         }
         else {
